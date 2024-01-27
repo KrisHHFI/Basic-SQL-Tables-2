@@ -1,8 +1,11 @@
-# Basic-SQL-Tables-2 (in progress)
+# Basic-SQL-Tables-2
 
-<img src="Office Building ER Diagram.png"/>
- 
-- I wanted to make tables for a fictional commercial building.
-- In the attached script the user can create the tables for the floors and the companies (the tenants).
-- The user can also insert, update and delete items/rows.
+<img src="Office Building ER Diagram 2.png"/>
+
+## About
+
+- Data tables for a fictional commercial building.
+- Part 2 continuing on from the "Basic-SQL-Table" project
+- Divided the main script into different scripts with suitable naming conventions
+- Added a "Tenant" table as a junction table for the "Floor" and "Company" tables. This made the data easier to read and to work with. Also, now a floor can have multiple companies.
 - Created using MariaDB, DBeaver and SQL.
